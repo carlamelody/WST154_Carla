@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Curious Case of Kevin's Kettle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="story-container">
+        <div class="story story1">
+            <h1>Sammy's Spinning Saga</h1> <br/>
+            <div class="content"></div>
+        </div>
+        <div class="story story2">
+            <h1>Sammy's Spinning Saga</h1> 
+            <div class="content"></div>
+        </div>
+    </div>
+
+    <script>
+        let char1 = "Sammy";
+
+        let story1 =  
+            char1 + "Sanders sat silently on a sandy shore, sorting smooth stones. " + 
+            char1 + ", being " + char1 + ", seldom settled for simple stones. " + 
+            char1 + " sought special stones—shiny stones, shimmering stones, stones " + 
+            char1 + " swore were secret treasures. \"\n\n As " + char1 + " searched, Sally Simmons, " + 
+            char1 + "'s sister, strolled over. " + 
+            char1 + ', said Sally, "stop sitting and sorting silly stones. \"\n\n" But ' + 
+            char1 + ", stubborn as " + char1 + " was, shook " + char1 + "'s shaggy head. " + 
+            '"Sally," ' + char1 + ' said, "some stones are special. ' + 
+            char1 + " says so, and " + char1 + "'s saying so makes " + char1 + " sure!\"\n\n" + 
+            'Sally sighed. "' + char1 + ', if ' + char1 + "’s so sure, show Sally something special.\"\n\n" + 
+            "So " + char1 + " stood, showing Sally several stones " + char1 + " had selected. " + 
+            '"See, Sally?" ' + char1 + "'s shiny stones shimmer spectacularly!\"\n\n" + 
+            'Sally smirked. "' + char1 + ', shiny stones shimmer, but so do sea shells. Shall Sally say ' + 
+            char1 + "’s sorting seems silly still?\"\n\n" + 
+            char1 + " frowned. \"Sally, stop spoiling " + char1 + "'s splendid stone sorting!\"\n\n" + 
+            "But just then, a sudden splash startled " + char1 + " and Sally. " + 
+            char1 + "'s sack of stones spilled, scattering " + char1 + "'s shiny stones into the surf. " + 
+            '"Sally!" ' + char1 + " shouted, scrambling. \"" + 
+            char1 + "'s shiny stones sank swiftly!\"\n\n" + 
+            'Sally snickered. "' + char1 + ", sometimes " + char1 + "’s shiny stone saga should stay short and sweet.\"\n\n" + 
+            "And " + char1 + " sighed, stuck in " + char1 + "’s slippery, sandy, shiny stone saga forever.";
+
+
+        let story2 = `
+            ${char1} Sanders sat silently on a sandy shore, sorting smooth stones. ${char1}, being ${char1}, seldom settled for simple stones. ${char1} sought special stones—shiny stones, shimmering stones, stones ${char1} swore were secret treasures.
+
+            As ${char1} searched, Sally Simmons, ${char1}'s sister, strolled over. "${char1}," said Sally, "stop sitting and sorting silly stones."
+
+            But ${char1}, stubborn as ${char1} was, shook ${char1}'s shaggy head. "Sally," ${char1} said, "some stones are special. ${char1} says so, and ${char1}'s saying so makes ${char1} sure!"
+
+            Sally sighed. "${char1}, if ${char1}’s so sure, show Sally something special."
+
+            So ${char1} stood, showing Sally several stones ${char1} had selected. "See, Sally? ${char1}'s shiny stones shimmer spectacularly!"
+
+            Sally smirked. "${char1}, shiny stones shimmer, but so do sea shells. Shall Sally say ${char1}’s sorting seems silly still?"
+
+            ${char1} frowned. "Sally, stop spoiling ${char1}'s splendid stone sorting!"
+
+            But just then, a sudden splash startled ${char1} and Sally. ${char1}'s sack of stones spilled, scattering ${char1}'s shiny stones into the surf. "Sally!" ${char1} shouted, scrambling. "${char1}'s shiny stones sank swiftly!"
+
+            Sally snickered. "${char1}, sometimes ${char1}'s shiny stone saga should stay short and sweet."
+
+            And ${char1} sighed, stuck in ${char1}’s slippery, sandy, shiny stone saga forever.`;
+
+            document.querySelector('.story1 .content').innerText = story1;
+            document.querySelector('.story2 .content').innerText = story2;
+    </script>
+</body>
+</html>
+
