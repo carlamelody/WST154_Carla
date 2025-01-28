@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background-color: #2e3440;
+    color: white; 
+}
+
+#buttonContainer {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px; 
+}
