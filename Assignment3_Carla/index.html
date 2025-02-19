@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Color Picker</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="navList">
+                <li><a class="nav-link" href="./">Home</a></li>
+                <li><a class="nav-link" href="./contact">Contact</a></li>
+                <li><a class="nav-link" href="./about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="color-picker">
+            <div id="dropdownBtn" class="color-option">
+                <span>Pick a hair color</span> &#9660;
+            </div>
+            <div class="dropdown" id="dropdownMenu"></div>
+        </div>
+        <div id="content">
+            <div class="image-container">
+                <div class="overlay"></div>
+                <img class="hair-img" src="./images/girlgray.png" alt="Girl">
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
