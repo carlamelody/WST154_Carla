@@ -51,7 +51,7 @@ canvas.height = window.innerHeight;
 
 const wisps = [];
 let glowColor = `rgba(255, 255, 170, 1)`; 
-for (let i = 0; i < 60; i++) { 
+for (let i = 0; i < 100; i++) { 
     let radius = Math.random() * 10 + 5;
     let x = Math.random() * (canvas.width - radius * 2) + radius;
     let y = Math.random() * (canvas.height - radius * 2) + radius;
